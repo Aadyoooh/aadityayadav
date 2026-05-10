@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV — アーディティヤ・ヤダブ</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    background:#fff;
+    color:#1a1a1a;
+    font-family:'Courier New', Courier, monospace;
+    font-size:13px;
+    line-height:1.6;
+  }
+  .page {
+    max-width:900px;
+    margin:0 auto;
+    padding:48px 52px;
+  }
+  .cv-grid {
+    display:grid;
+    grid-template-columns:260px 1fr;
+    gap:44px;
+  }
+
+  /* LEFT COLUMN */
+  .blob-wrap { width:210px; height:220px; margin-bottom:14px; }
+  .greeting {
+    font-size:14.5px;
+    font-weight:700;
+    text-align:center;
+    margin-bottom:22px;
+    letter-spacing:0.03em;
+  }
+  .contact-center { text-align:center; line-height:2.1; }
+  .pill-red {
+    background:#7B0B0B;
+    color:#fff;
+    display:inline-block;
+    padding:2px 16px;
+    font-size:12.5px;
+    margin-bottom:3px;
+  }
+  .interests-section { margin-top:36px; }
+  .interest-sec-title {
+    font-size:18px;
+    font-weight:900;
+    margin-bottom:16px;
+    letter-spacing:-0.01em;
+  }
+  .tag-grid { display:flex; flex-direction:column; gap:11px; padding:4px 0 0 0; }
+  .tag-row { display:flex; gap:20px; align-items:center; }
+  .itag {
+    border:1px solid #1a1a1a;
+    font-size:12px;
+    padding:3px 11px;
+    white-space:nowrap;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  /* RIGHT COLUMN */
+  .cv-label {
+    font-size:56px;
+    font-weight:900;
+    line-height:1;
+    margin-bottom:4px;
+    letter-spacing:-0.05em;
+  }
+  .sec-title {
+    font-size:21px;
+    font-weight:900;
+    margin-bottom:10px;
+    margin-top:24px;
+    letter-spacing:-0.02em;
+  }
+  .sec-title.first { margin-top:0; }
+  .edu-entry { margin-bottom:7px; }
+  .edu-name { font-size:13px; }
+  .edu-year { font-size:11.5px; color:#555; }
+  .sw-group { display:flex; align-items:flex-start; margin-bottom:14px; }
+  .sw-list { flex:1; line-height:2; font-size:12.5px; }
+  .sw-badge {
+    border:1px solid #1a1a1a;
+    font-size:11px;
+    padding:2px 8px;
+    white-space:nowrap;
+    margin-left:12px;
+    margin-top:6px;
+    align-self:center;
+    font-family:'Courier New', Courier, monospace;
+  }
+  .lang-list { line-height:2.1; font-size:12.5px; }
+  .extra-list { line-height:2.1; font-size:12.5px; }
+  .soft-list { line-height:2.1; font-size:12.5px; }
+
+  @media print {
+    body { padding:0; }
+    .page { padding:32px 40px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="cv-grid">
+
+    <!-- LEFT COLUMN -->
+    <div class="col-left">
+      <div class="blob-wrap">
+        <svg viewBox="0 0 210 220" xmlns="http://www.w3.org/2000/svg" width="210" height="220">
+          <path d="M105 16 C140 8, 178 22, 188 56 C200 94, 192 126, 178 154 C164 180, 138 200, 106 206 C76 212, 46 196, 30 172 C12 146, 10 110, 20 80 C32 48, 68 24, 105 16Z" fill="#7B0B0B"/>
+          <path d="M92 12 C118 6, 162 18, 176 52 C188 82, 180 118, 164 146 C148 174, 120 194, 92 196 C64 198, 36 180, 22 154 C6 126, 12 88, 26 60 C42 30, 68 18, 92 12Z" fill="#7B0B0B" opacity="0.88"/>
+        </svg>
+      </div>
+
+      <div class="greeting">こんにちは、アーディティヤです</div>
+
+      <div class="contact-center">
+        <div class="pill-red">アーディティヤ・ヤダブ</div><br>
+        <span style="font-size:12.5px">+91 8722317939</span><br>
+        <div class="pill-red" style="margin-top:4px; padding:2px 22px">●●●●●●●@gmail.com</div>
+      </div>
+
+      <div class="interests-section">
+        <div class="interest-sec-title">趣味・関心</div>
+        <div class="tag-grid">
+          <div class="tag-row">
+            <span class="itag">音楽</span>
+          </div>
+          <div class="tag-row" style="padding-left:26px">
+            <span class="itag">制作</span>
+          </div>
+          <div class="tag-row" style="padding-left:54px">
+            <span class="itag">アート</span>
+          </div>
+          <div class="tag-row" style="padding-left:22px">
+            <span class="itag">ギター</span>
+          </div>
+          <div class="tag-row" style="padding-left:52px">
+            <span class="itag">映画</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="col-right">
+      <div class="cv-label">CV</div>
+
+      <div class="sec-title first">学歴</div>
+      <div class="edu-entry">
+        <div class="edu-name">フローレンス高校</div>
+        <div class="edu-year">2009 – 2019</div>
+      </div>
+      <div class="edu-entry">
+        <div class="edu-name">セント・ジョセフ前期大学</div>
+        <div class="edu-year">2019 – 2021</div>
+      </div>
+      <div class="edu-entry">
+        <div class="edu-name">ダヤナンダ・サーガル建築大学</div>
+        <div class="edu-year">2021 – 2026</div>
+      </div>
+
+      <div class="sec-title">使用ソフトウェア</div>
+
+      <div class="sw-group">
+        <div class="sw-list">
+          Revit<br>Autocad<br>SketchUp<br>Rhino 3D<br>QGIS
+        </div>
+        <div class="sw-badge">製図</div>
+      </div>
+
+      <div class="sw-group">
+        <div class="sw-list">
+          Twinmotion<br>D5 Render<br>Lumion
+        </div>
+        <div class="sw-badge">レンダリング</div>
+      </div>
+
+      <div class="sw-group">
+        <div class="sw-list">
+          Adobe Photoshop<br>Adobe Illustrator<br>Adobe InDesign
+        </div>
+        <div></div>
+      </div>
+
+      <div class="sw-group" style="margin-top:-6px">
+        <div class="sw-list">
+          Google Suite<br>Microsoft Suite
+        </div>
+        <div class="sw-badge">プレゼンテーション</div>
+      </div>
+
+      <div class="sec-title">語学</div>
+      <div class="lang-list">
+        英語<br>
+        カンナダ語<br>
+        マラーティー語<br>
+        ヒンディー語<br>
+        日本語（初級）
+      </div>
+
+      <div class="sec-title">課外活動</div>
+      <div class="extra-list">
+        参加：Ethos Acedge 2024<br>
+        学生自治会：広報・メディア部長<br>
+        イベント運営：大学イベント「Aspire」
+      </div>
+
+      <div class="sec-title">ソフトスキル</div>
+      <div class="soft-list">
+        リーダーシップ<br>
+        協働力<br>
+        デジタルリテラシー<br>
+        スケッチ
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
